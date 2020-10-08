@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*top navbar stuff */
+.topbar {
+    width:100%;
+    background-color:#2d2d2d;
+    margin-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+    border:none;
+}
+.topbar h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.topbar h1 a{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.topbar h1 a :hover{
+    color: orange;
+    transition: ease-in-out;
+}
+/* blog area */
+.blogarea{
+    width:70%;
+    background-color: grey;
+    height: 100px;
+    padding: 20px;
+    margin: 1%;
+    float: left;
+}
+.recentblog {
+    width:27%;
+    background-color: grey;
+    min-height: 50vh;
+    margin-right: 1%;
+    margin-top: 1% ; 
+    float: right;
+}
+.blog {
+    background-color: hotpink;
+    padding: 20px;
+
+}
+.blogtitle {
+    color: lawngreen;
+    font-size: 70px;
+
+}
+.img {
+    float: left;
+    width: 10px%;
+    height:50%;
+}
+.text{
+    float: left;
+}
